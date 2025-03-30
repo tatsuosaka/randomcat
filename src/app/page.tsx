@@ -34,7 +34,7 @@ export default function Home() {
                     <BeatLoader color="#fff" />
                 </div>
             ) : (
-                <div className="flex items-center justify-center h-svh flex-col gap-8">
+                <div className="flex items-center justify-center h-svh flex-col gap-8 p-4">
                     <img
                         className="rounded"
                         src={cat}
